@@ -1,4 +1,8 @@
-# Metagenomics pipeline
+#                                                     Metagenomics pipeline
 
 
-![Pipeline](https://github.com/ecohealthalliance/metagenomics/assets/72785049/e30831e5-67ca-448e-824f-920ad16ad597)
+
+
+
+
+![Pipeline](https://github.com/ecohealthalliance/metagenomics/assets/72785049/900cb646-5cfb-4d31-8413-9512ef77afdc)

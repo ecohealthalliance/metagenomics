@@ -1,0 +1,31 @@
+## Number CPUs
+nm_threads: 40
+## File adapters
+adapters: genomes/nextera.fasta
+## minimum length for contigs assembled with MEGAHIT
+length_megahit: 150
+## Percentage of the length of the contigs that is covered by the reads  
+cov_contigs: 70
+## Minimum number of reads aligned to a contig
+min_reads_cont: 5
+## nt database BLAST+
+ncbi_nt: /home/alexarmero2022/shared/NCBI/nt/nt
+## RefSeq virus
+virus_db: /home/alexarmero2022/shared/NCBI/viruses/ref_viruses_rep_genomes
+## Threshold e-value blast
+evalue_blast: 0.0000000001
+## path to nodes.dmp file
+names: /home/alexarmero2022/shared/NCBI/taxdump/names.dmp
+nodes: /home/alexarmero2022/shared/NCBI/taxdump/nodes.dmp
+## nr diamond database
+diamond_ref: /home/alexarmero2022/shared/NCBI/diamond/nr.dmnd
+## minimum identity alignments diamond
+diamond_id: 40
+## Threshold e-value diamond
+diamond_evalue: 0.05
+##  Block size in billions of sequence letters to be processed at a time
+diamond_block: 14
+## chunck index diamond
+diamond_chunck: 1
+## bowtie index files for the host genomes
+bacteria_genomes: /home/alexarmero2022/shared/NCBI/Bacteria/Bacteria.RefSeq.fasta

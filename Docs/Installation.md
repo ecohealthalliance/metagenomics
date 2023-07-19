@@ -37,12 +37,16 @@ chmod +x scripts/*
  
 2. Installation of software requires conda. Installation of conda is described [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html). Once installed conda, run the following commands: 
 
-- Activate conda base environment
+- Activate conda environment
 
 ```
-conda activate base
+conda activate snakemake
 
 ```
+
+
+
+
 - Install software
 
 ```

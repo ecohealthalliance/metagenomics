@@ -51,8 +51,15 @@ mamba create -c conda-forge -c bioconda -n snakemake snakemake python=3.7
 
 ```
 
-- Activate iSNVs environment
+- Activate snakemake environment
 ```
 conda activate snakemake
+
+```
+
+- Install software
+
+```
+conda install --yes --file packages.txt
 
 ```

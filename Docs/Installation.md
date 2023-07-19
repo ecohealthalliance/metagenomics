@@ -37,20 +37,22 @@ chmod +x scripts/*
  
 2. Installation of software requires conda. Installation of conda is described [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html). Once installed conda, run the following commands: 
 
-- Activate conda environment
+- Activate conda base environment
 
+```
+conda activate base
+
+```
+- Install mamba and then create the iSNVs environment by installing snakemake at the same time. 
+
+```
+conda install -c conda-forge mamba
+mamba create -c conda-forge -c bioconda -n snakemake snakemake python=3.7
+
+```
+
+- Activate iSNVs environment
 ```
 conda activate snakemake
 
 ```
-
-
-
-
-- Install software
-
-```
-
-
-```
-

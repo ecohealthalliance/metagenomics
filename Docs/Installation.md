@@ -1,4 +1,3 @@
-f
 ### Operating system
 <p align="justify">
 The pipeline was developed on Ubuntu 22.04.2. The software was developed with the following system requirements:
@@ -44,5 +43,10 @@ chmod +x scripts/*
 conda activate base
 
 ```
+- Install software
 
+```
+
+
+```
 
